@@ -1,2 +1,8 @@
 // My first JS Code
-console.log("Hello World again 2");
+
+const myName = "Raj Shubham"
+// myName = "Shubham Raj"
+console.log(myName);
+
+// Types Of Variables
+// string, number, boolean, undefined, null/object
