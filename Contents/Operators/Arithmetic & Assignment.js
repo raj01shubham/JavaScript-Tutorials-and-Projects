@@ -1,4 +1,4 @@
-let x = 20;
+let x = 10;
 let y = 3;
 
 console.log(x+y);   // Addition
@@ -21,5 +21,5 @@ console.log(b);
 
 // Assignment
 let i = 5;
-i += 5;
+i **= 4;
 console.log(i);

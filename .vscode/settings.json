@@ -1,5 +1,8 @@
 {
-    "cSpell.enableFiletypes": [
-        "cucumber"
+    "cSpell.enabledFileTypes": {
+        "cucumber": true
+    },
+    "cSpell.words": [
+        "Hamedani"
     ]
 }

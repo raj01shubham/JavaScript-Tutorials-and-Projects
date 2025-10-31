@@ -1,6 +1,6 @@
 
-function greet(name) {
-    console.log("Hi!",name);
+function greet(firstName, lastName) {
+    console.log("Hi!",firstName,lastName);
 }
 
 function square(num) {
@@ -8,5 +8,5 @@ function square(num) {
 }
 
 greet("Bye");
-greet("Raj", "Cricket");
+greet("Raj", "Shubham");
 console.log(square(5));

@@ -1,7 +1,8 @@
 # JavaScript Tutorials and Projects
 
-Course Link- https://lilly.udemy.com/course/javascript-basics-for-beginners/learn/lecture/10688758#overview
- 
+Course Link- <https://lilly.udemy.com/course/javascript-basics-for-beginners/learn/lecture/10688758#overview>
+Author/Tutor/Lecturer- Mosh Hamedani
+
 Section 1 -- Intro
 
 Section 2 -- Basics:-
@@ -11,5 +12,5 @@ Section 3 -- Operators:-
 Arithmetic, Assignment, Comparison, Equality, Ternary, Logical, Bitwise
 
 Section 4 -- Control Flow:-
-Conditional Statements- If-Else, Switch-Case, 
+Conditional Statements- If-Else, Switch-Case,
 Loops- For, While, Do-While, For-In, For-Of
