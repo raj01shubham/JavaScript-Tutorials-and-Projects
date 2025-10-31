@@ -1,7 +1,7 @@
 
 let person = {
     name : 'Raj',
-    age: 24
+    age: 25
 }
 
 console.log(person);
@@ -9,9 +9,10 @@ console.log(person);
 // Accessing the Object
 
 // 1. Dot Notation
-person.age = 25;
+person.age = 1;
 
 // 2. Bracket Notation
-person["name"] = "Shubham";
+let key = "name"; // dynamic key
+person[key] = "Ved";
 
 console.log(person);
