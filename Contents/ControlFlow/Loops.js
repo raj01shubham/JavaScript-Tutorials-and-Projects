@@ -1,5 +1,6 @@
 
 // For Loop
+console.log("For Loop")
 for (let i=0; i<=5; i++){
     console.log(i)
 }
@@ -23,10 +24,15 @@ j++;
 // For...In
 const person = {
     name : 'Raj',
-    age: 24
+    age: 25
 }
 for (let key in person){
-    console.log(key,':',person[key])
+    console.log("Only Key ->",key)
+    console.log("Bracket Notation ->",key,':',person[key])
+    console.log("Using Dollar Sign ->",`${key} : ${person[key]}`)
+    console.log("Only Value ->",person[key])
+    console.log("Dot Notation ->",key,':',person.key,"--> It can not be used because key is not a property of person object") //undefined
+    console.log("-----")
 }
 
 // For...Of
