@@ -3,7 +3,7 @@
 // Every 5 kmph -> 1 Point
 // 12 Points -> Suspended
 
-checkSpeed(130);
+checkSpeed(129);
 
 function checkSpeed(speed){
     
@@ -11,16 +11,16 @@ function checkSpeed(speed){
     const perPointSpeed = 5;
     const suspendPoints = 12;
     
-    if (speed <= speedLimit){
+    if (speed < speedLimit + perPointSpeed){
         console.log('Great Driving!');
+        return;
+    }
+    const points = Math.floor((speed - speedLimit)/perPointSpeed);
+    if (points >= suspendPoints){
+        console.log('Hehehe... Suspended');
     }
     else{
-        const points = Math.floor((speed - speedLimit)/perPointSpeed);
-        if (points >= suspendPoints){
-            console.log('Hehehe... Suspended');
-        }
-        else{
-            console.log('Points:',points,'\nDrive Slower!')
-        }
+        console.log('Points:',points,'\nDrive Slower!')
     }
+    
 }

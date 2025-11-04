@@ -22,6 +22,7 @@ j++;
 } while (j<=5)
 
 // For...In
+console.log("For...In Loop")
 const person = {
     name : 'Raj',
     age: 25
@@ -36,6 +37,7 @@ for (let key in person){
 }
 
 // For...Of
+console.log("For...Of Loop")
 let colors = ['red','yellow','green'];
 for (let color of colors){
     console.log(color)
